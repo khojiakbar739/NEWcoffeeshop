@@ -1,0 +1,33 @@
+.section-quality {
+    position: relative;
+    width: 1200px;;
+ padding-left: 85px;
+    margin: 0 auto;
+    background-color: #2C343E;
+    padding-top: 90px;
+    padding-bottom: 176px;
+}
+
+.section-quality__img{
+    position: absolute;
+       right: 85px; 
+    top: -15%;
+}
+
+.quality__h2{
+    width: 517px;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FEFCF7;
+    margin-bottom: 32px;
+}
+
+.quality__p{
+    width: 540px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}

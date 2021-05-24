@@ -1,0 +1,39 @@
+.section___our-commitment {
+    width: 1200px;
+    margin: 0 auto;
+display: flex;
+align-items: center ;
+margin-top: 50px;
+padding: 50px;
+
+}
+.commitment-right {
+width: 550px;
+margin: 0 auto;
+
+}
+
+.commitment_heading {
+    height: 48px;
+left: 0%;
+right: 33.89%;
+top: calc(50% - 48px/2 - 146px);
+font-family: Fraunces 9pt;
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 48px;
+color: #333D4B;
+
+}
+
+.commitment_paragraph {
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+        color: #333D4B;
+        mix-blend-mode: normal;
+    opacity: 0.8;
+}

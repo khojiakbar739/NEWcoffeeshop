@@ -1,0 +1,43 @@
+
+.footer__section{
+    margin-top: 200px;
+    background: #2C343E;
+  }
+  .footer__section-div{
+    display: flex;
+    width: 1280px;
+    margin: 0 auto;
+    align-items: center;
+  
+  }
+  .footer__section-ul-list{
+  display: flex; 
+   list-style-type: none;
+   margin-left: 150px;
+  
+  }
+  .footer__section-list-item {
+    display: block;
+    font-family: Barlow;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 0.923077px;
+  text-transform: uppercase;
+  color: #83888F;
+  text-decoration: none;
+  padding: 50px 15px;
+  }
+  
+  .footer__section-list-item:active {
+    color: red;}
+  
+  .facebook{
+  display: block;
+  margin-left: 350px;
+  }
+  .footer_icons{
+    display: block;
+    padding: 15px;
+  }

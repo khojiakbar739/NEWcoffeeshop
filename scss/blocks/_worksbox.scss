@@ -1,0 +1,90 @@
+.container2-plan {
+   
+    width: 1280px;
+      margin: 0 auto;
+       margin-top: 100px ;
+    }
+
+.works__box {
+
+        padding: 85px;
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #2C343E;
+}
+.how_it-works_class{
+    font-family: Fraunces 9pt;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  margin-bottom: 100px;
+  color: #83888F;
+  }
+  
+.works_heading_class-plan {
+    margin: 30px 0 ;
+    font-weight: 900;
+font-size: 32px;
+line-height: 36px;
+color: #FEFCF7;
+}
+
+.works_paragraph_class-plan{
+
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+color: #FEFCF7;
+}
+.span_class_line-plan{
+    margin: 30px;
+    position: relative;
+  display: block;
+    width:750px;
+  border: 2px solid #FDD6BA;;
+  margin-left: 30px;
+  }
+  .span_class_line-plan::after {
+  position: absolute;
+  left: -5px;
+  top: -15px;
+  width: 25px;
+  height: 25px;
+  border:2px solid #0e8784;
+  border-radius:50%;
+  background-color:#2C343E;
+  content:"";
+  }
+  .span_class_line-plan::before {
+    position: absolute;
+    left: 350px;
+    top: -15px;
+    width: 25px;
+    height: 25px;
+    border:2px solid #0e8784;
+    border-radius:50%;
+    background-color:#2C343E;
+    content:"";
+    }
+    .span_class_line_second-plan::after {
+      position: absolute;
+      left: 750px;
+      top: -15px;
+      width: 25px;
+      height: 25px;
+      border:2px solid #0e8784;
+      border-radius:50%;
+      background-color:#2C343E;
+      content:"";
+      
+    }
+  
+  .span_works_class {
+    font-family: Fraunces 9pt;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  color: #FDD6BA;
+  }
