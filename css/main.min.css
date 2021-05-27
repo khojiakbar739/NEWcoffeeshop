@@ -470,7 +470,7 @@ body {
   padding: 15px;
 }
 
-.container_section {
+.container_section_about {
   width: 1200px;
   height: 450px;
   margin: 0 auto;
@@ -717,6 +717,135 @@ body {
   font-size: 72px;
   line-height: 72px;
   color: #FDD6BA;
+}
+
+.section_container-plan {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 85px;
+  padding-top: 159px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container_plan {
+  width: 255px;
+}
+
+.div_link {
+  display: block;
+  text-decoration: none;
+  padding: 29px 0;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #333D4B;
+  border-bottom: 1px solid #333D4B;
+  opacity: 06;
+}
+
+.first::before {
+  content: url(../../images/01.png);
+  size: 30px 32px;
+  padding-right: 30px;
+}
+
+.second::before {
+  content: url(../../images/02.png);
+  size: 30px 32px;
+  padding-right: 30px;
+}
+
+.third::before {
+  content: url(../../images/03.png);
+  size: 30px 32px;
+  padding-right: 30px;
+}
+
+.fourth::before {
+  content: url(../../images/04.png);
+  size: 30px 32px;
+  padding-right: 30px;
+}
+
+.fiveth::before {
+  content: url(../../images/05.png);
+  size: 30px 32px;
+  padding-right: 30px;
+}
+
+.form_heading {
+  font-family: Fraunces 9pt;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #83888F;
+  margin-bottom: 56px;
+}
+
+.form_div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: -23px;
+}
+
+.form_div label {
+  margin-left: 23px;
+  margin-bottom: 30px;
+}
+
+.form_checkbox {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+
+.form_checkbox:checked + .span_all {
+  background-color: #0E8784;
+}
+
+.span_all {
+  display: block;
+  width: 230px;
+  height: 250px;
+  padding: 32px 28px;
+  background: #F4F1EB;
+  border-radius: 8px;
+}
+
+.form_span {
+  display: block;
+  font-family: Fraunces 9pt;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+  color: #333D4B;
+  margin-bottom: 25px;
+}
+
+.form_spane {
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333D4B;
+}
+
+.section_container-plan {
+  width: 1200px;
+  height: 450px;
+  margin: 0 auto;
+  display: block;
 }
 
 /* fraunces-regular - latin */
